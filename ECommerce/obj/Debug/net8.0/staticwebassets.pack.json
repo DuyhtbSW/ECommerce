@@ -345,12 +345,20 @@
       "PackagePath": "staticwebassets\\Hinh\\KhachHang\\android_300200.png"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\Hinh\\KhachHang\\gd.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\KhachHang\\gd.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\Hinh\\KhachHang\\man.jpg",
       "PackagePath": "staticwebassets\\Hinh\\KhachHang\\man.jpg"
     },
     {
       "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\Hinh\\KhachHang\\woman.jpg",
       "PackagePath": "staticwebassets\\Hinh\\KhachHang\\woman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\Hinh\\KhachHang\\z5452626541868_549d6d47bc932886cc41489e2fa540e5.jpg",
+      "PackagePath": "staticwebassets\\Hinh\\KhachHang\\z5452626541868_549d6d47bc932886cc41489e2fa540e5.jpg"
     },
     {
       "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\Hinh\\Loai11.jpeg",

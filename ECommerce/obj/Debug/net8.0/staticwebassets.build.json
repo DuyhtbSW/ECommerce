@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xPuTWAQ8F0QPwVflm/hUAQ/EqsfLkhAod0iD6CX1by8=",
+  "Hash": "YRrrZJgK9xx07ED8XyGhsjYB7/9KxtY/g8kEO8wVGI8=",
   "Source": "ECommerce",
   "BasePath": "_content/ECommerce",
   "Mode": "Default",
@@ -5185,6 +5185,25 @@
       "OriginalItemSpec": "wwwroot\\Hinh\\KhachHang\\Author.jpg"
     },
     {
+      "Identity": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\Hinh\\KhachHang\\gd.jpg",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "Hinh/KhachHang/gd.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Hinh\\KhachHang\\gd.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\Hinh\\KhachHang\\man.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
@@ -5240,6 +5259,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Hinh\\KhachHang\\woman.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\Hinh\\KhachHang\\z5452626541868_549d6d47bc932886cc41489e2fa540e5.jpg",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "Hinh/KhachHang/z5452626541868_549d6d47bc932886cc41489e2fa540e5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Hinh\\KhachHang\\z5452626541868_549d6d47bc932886cc41489e2fa540e5.jpg"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\Hinh\\Loai\\Accept.png",
