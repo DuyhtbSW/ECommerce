@@ -4,14 +4,18 @@ using Microsoft.AspNetCore.Mvc;
 using ECommerce.Helper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using ECommerce.Service;
 namespace ECommerce.Controllers
 {
     public class CartController : Controller
     {
+        private readonly IVnPayService _vnPayService;
         private readonly Hshop2023Context db;
 
-        public CartController(Hshop2023Context context)
+        public CartController(Hshop2023Context context, IVnPayService vnPayService)
+
         {
+            _vnPayService = vnPayService;
             db = context;
         }
         const string CART_KEY = "MYCART";
@@ -76,10 +80,23 @@ namespace ECommerce.Controllers
         }
         [Authorize]
         [HttpPost]
-        public IActionResult Checkout(CheckoutVM model)
+        public IActionResult Checkout(CheckoutVM model,string payment = "COD")
         {
+
             if (ModelState.IsValid)
             {
+                if(payment == "VnPay")
+                {
+                    var vnPayModel = new VnPaymentRequestModel
+                    {
+                        Amount = Cart.Sum(p => p.ThanhTien),
+                        CreateDate = DateTime.Now,
+                        Description = $"{model.HoTen}{model.DiaChi}",
+                        FullName = model.HoTen,
+                        OrderId = new Random().Next(1000,10000)
+                    };
+                   return Redirect(_vnPayService.CreatePaymentUrl(HttpContext, vnPayModel));
+                }
                 var customerId = HttpContext.User.Claims.SingleOrDefault(p => p.Type == "CustomerID")?.Value;
                 var khachHang = new KhachHang();
                 if (model.GiongKhachHang)
@@ -133,6 +150,27 @@ namespace ECommerce.Controllers
             }
 
             return View(Cart);
+        }
+       
+        [Authorize]
+        public IActionResult PaymentFail()
+        {
+            return View();
+        }
+        [Authorize]
+        public IActionResult PaymentCallBack()
+        {
+            var response = _vnPayService.PaymentExecute(Request.Query);
+            if (response == null || response.VnPayResponseCode != "00")
+            {
+                TempData["Message"] = $"Loi Thanh Toan VNPAY :{response.VnPayResponseCode}";
+                return RedirectToAction("PaymentFail");
+            }
+            return View("PaymentSuccess");
+        }
+        public IActionResult PaymentSuccess()
+        {
+            return View("Success");
         }
     }
 }

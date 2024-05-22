@@ -1,6 +1,7 @@
 
 using ECommerce.Data;
 using ECommerce.Helper;
+using ECommerce.Service;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,6 +15,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     options.LoginPath = "/KhachHang/Login";
     options.AccessDeniedPath = "/AccessDenied";
 });
+builder.Services.AddSingleton<IVnPayService, VnPayService>();
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout=TimeSpan.FromSeconds(10);
