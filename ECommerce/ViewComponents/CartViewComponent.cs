@@ -8,7 +8,7 @@ namespace ECommerce.ViewComponents
        public IViewComponentResult Invoke()
         {
             const string CART_KEY = "MYCART";
-            var cart = HttpContext.Session.Get<List<CardItem>>(CART_KEY)?? new List<CardItem>();
+            var cart = HttpContext.Session.Get<List<CartItem>>(CART_KEY)?? new List<CartItem>();
             return View("CartPanel", new CartModel
             {
 Quantity = cart.Sum(p=>p.SoLuong),

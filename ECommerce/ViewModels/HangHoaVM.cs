@@ -21,7 +21,7 @@
         public int DiemDanhGia { get; set; }
         public int SoLuongTon { get; set; }
     }
-    public class CardItem
+    public class CartItem
     {
         public int MaHH { get; set; }
         public string? Hinh { get; set; }
