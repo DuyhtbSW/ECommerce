@@ -2,6 +2,7 @@
 using ECommerce.Data;
 using ECommerce.Helper;
 using ECommerce.Service;
+using ECommerce.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,7 +19,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 builder.Services.AddSingleton<IVnPayService, VnPayService>();
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout=TimeSpan.FromSeconds(10);
+    options.IdleTimeout=TimeSpan.FromMinutes(10);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
