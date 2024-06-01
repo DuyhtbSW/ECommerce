@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets\\ECommerce.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\404.html",
-      "PackagePath": "staticwebassets\\404.html"
-    },
-    {
       "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\Hinh\\HangHoa\\1009.gif",
       "PackagePath": "staticwebassets\\Hinh\\HangHoa\\1009.gif"
     },
@@ -1217,18 +1213,6 @@
       "PackagePath": "staticwebassets\\Hinh\\icons\\vit.gif"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\cart.html",
-      "PackagePath": "staticwebassets\\cart.html"
-    },
-    {
-      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\chackout.html",
-      "PackagePath": "staticwebassets\\chackout.html"
-    },
-    {
-      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\contact.html",
-      "PackagePath": "staticwebassets\\contact.html"
-    },
-    {
       "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
@@ -1245,6 +1229,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\img\\Game.jpg",
+      "PackagePath": "staticwebassets\\img\\Game.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\img\\avatar.jpg",
       "PackagePath": "staticwebassets\\img\\avatar.jpg"
     },
@@ -1255,6 +1243,14 @@
     {
       "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\img\\banner-fruits.jpg",
       "PackagePath": "staticwebassets\\img\\banner-fruits.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\img\\banner.png",
+      "PackagePath": "staticwebassets\\img\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\img\\banner2.jpg",
+      "PackagePath": "staticwebassets\\img\\banner2.jpg"
     },
     {
       "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\img\\best-product-1.jpg",
@@ -1333,12 +1329,20 @@
       "PackagePath": "staticwebassets\\img\\hero-img.jpg"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\img\\jewery.jpg",
+      "PackagePath": "staticwebassets\\img\\jewery.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\img\\payment.png",
       "PackagePath": "staticwebassets\\img\\payment.png"
     },
     {
       "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\img\\single-item.jpg",
       "PackagePath": "staticwebassets\\img\\single-item.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\img\\technology.png",
+      "PackagePath": "staticwebassets\\img\\technology.png"
     },
     {
       "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\img\\testimonial-1.jpg",
@@ -1367,10 +1371,6 @@
     {
       "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\img\\vegetable-item-6.jpg",
       "PackagePath": "staticwebassets\\img\\vegetable-item-6.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
     },
     {
       "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\js\\main.js",
@@ -2019,18 +2019,6 @@
     {
       "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
-    },
-    {
-      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\shop-detail.html",
-      "PackagePath": "staticwebassets\\shop-detail.html"
-    },
-    {
-      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\shop.html",
-      "PackagePath": "staticwebassets\\shop.html"
-    },
-    {
-      "Id": "C:\\Users\\Admin\\Desktop\\.Net\\ECommerce\\ECommerce\\wwwroot\\testimonial.html",
-      "PackagePath": "staticwebassets\\testimonial.html"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ECommerce.Microsoft.AspNetCore.StaticWebAssets.props",
